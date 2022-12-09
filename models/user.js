@@ -17,7 +17,9 @@ const userSchema = new mongoose.Schema({
         type : String,
         require: [true, 'required!']
     },
-    age: Number,
+    age:{
+         type :Number
+    },
     todos: [{type: mongoose.Schema.Types.ObjectId, ref: "Todo"}]
 }
 ,{
