@@ -4,7 +4,7 @@ const ejs = require('ejs')
 
 
 
-exports.sendEmail = async(req,res, receiver) =>{
+exports.sendEmail = async(req,res) =>{
 
 try {
     

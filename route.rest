@@ -1,4 +1,5 @@
-GET http://localhost:4000/api/todos
+GET http://localhost:4000/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NzA4NTg5NzIsImV4cCI6MTY3MDg2MjU3Mn0.OIh1HGEL9d5jXfN8j95_11_23FcpcbBpqbMyGwiroe8
 
 ###
 POST http://localhost:4000/api/todos
